@@ -2,7 +2,7 @@
     "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
     "waitFor": "onCreateCommand",
     "onCreateCommand": ".devcontainer/setup.sh",
-    "updateContentCommand": "cargo build",
+    "updateContentCommand": "zig build",
     "postCreateCommand": "",
     "postAttachCommand": "",
     "customizations": {
